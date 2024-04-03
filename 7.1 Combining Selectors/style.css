@@ -1,0 +1,32 @@
+/* Write your code here: */
+h1,h2{
+  color: blueviolet;
+}
+
+/* parent child */ 
+div>p{
+  color: firebrick;
+}
+ul li{
+  color: aqua;
+}
+
+.box li{
+  color: blue;
+}
+
+/* super specific selector */
+
+
+/* h1#title.bigheading */
+
+ul li.done{
+  color: green;
+}
+
+ul p.done{
+  font-size: .5rem;
+}
+ul>p.done{
+  font-size: .5rem;
+}
